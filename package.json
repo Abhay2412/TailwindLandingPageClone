@@ -1,0 +1,23 @@
+{
+  "name": "tailwindlandingpageclone",
+  "version": "1.0.0",
+  "description": "Using a tutorial to learn about Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhay2412/TailwindLandingPageClone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abhay2412/TailwindLandingPageClone/issues"
+  },
+  "homepage": "https://github.com/Abhay2412/TailwindLandingPageClone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
