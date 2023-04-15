@@ -17,7 +17,20 @@ module.exports = {
         darkGreyishBlue: "#424952",
         veryDarkBlue: "#00004D",
         paleRed: "#D9544D",
-        lightGrey: "#D3D3D3"
+        lightGrey: "#D3D3D3",
+        // Color Scheme 1 for Camping
+        deepMossGreen: "#3B6B35",
+        fernGreen: "#637F42",
+        oliveDrab: "#4C4A41",
+        bistreBrown: "#9F7B21",
+        mistyMoss: "#BFAA72",
+        antiqueBronze: "#645B16",
+        // Color Scheme 2 for Camping
+        sandyBrown: "#F8A668",
+        sandyBrownLight: "#FCD3B4",
+        milkChocolate: "#8D5733",
+        rifleGreen: "#46483C",
+        mossGreen: "#8C8E61",
 
       }
     },
