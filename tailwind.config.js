@@ -28,6 +28,9 @@ module.exports = {
         bistreBrown: "#9F7B21",
         mistyMoss: "#BFAA72",
         antiqueBronze: "#645B16",
+        veryLightPumpkin: "#FFF2E9",
+        mediumPurple: "#CAB5F0",
+        buttonBlue: "#16AEEF",
         // Color Scheme 2 for Camping
         sandyBrown: "#F8A668",
         sandyBrownLight: "#FCD3B4",
