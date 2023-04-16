@@ -557,6 +557,10 @@ video {
   margin-bottom: 8rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -597,6 +601,12 @@ video {
   justify-content: space-between;
 }
 
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-x-8 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(2rem * var(--tw-space-x-reverse));
@@ -609,14 +619,47 @@ video {
   margin-bottom: calc(0px * var(--tw-space-y-reverse));
 }
 
+.space-y-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+
 .space-y-12 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(3rem * var(--tw-space-y-reverse));
 }
 
+.space-y-14 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(3.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(3.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
+}
+
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-l-full {
+  border-top-left-radius: 9999px;
+  border-bottom-left-radius: 9999px;
+}
+
+.bg-lightFernGreen {
+  --tw-bg-opacity: 1;
+  background-color: rgb(208 217 198 / var(--tw-bg-opacity));
+}
+
+.bg-middleLightFernGreen {
+  --tw-bg-opacity: 1;
+  background-color: rgb(130 153 104 / var(--tw-bg-opacity));
 }
 
 .bg-sandyBrown {
@@ -633,6 +676,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pt-0 {
   padding-top: 0px;
 }
@@ -646,8 +694,33 @@ video {
   line-height: 2.5rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.text-bistreBrown {
+  --tw-text-opacity: 1;
+  color: rgb(159 123 33 / var(--tw-text-opacity));
+}
+
+.text-deepMossGreen {
+  --tw-text-opacity: 1;
+  color: rgb(59 107 53 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -655,14 +728,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-oliveDrab {
+.text-darkFernGreen {
   --tw-text-opacity: 1;
-  color: rgb(76 74 65 / var(--tw-text-opacity));
-}
-
-.text-bistreBrown {
-  --tw-text-opacity: 1;
-  color: rgb(159 123 33 / var(--tw-text-opacity));
+  color: rgb(50 64 33 / var(--tw-text-opacity));
 }
 
 .hover\:bg-sandyBrownLight:hover {
@@ -676,6 +744,10 @@ video {
 }
 
 @media (min-width: 770px) {
+  .md\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -684,32 +756,12 @@ video {
     display: flex;
   }
 
+  .md\:hidden {
+    display: none;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
-  }
-
-  .md\:w-1\/4 {
-    width: 25%;
-  }
-
-  .md\:w-1\/3 {
-    width: 33.333333%;
-  }
-
-  .md\:w-5 {
-    width: 1.25rem;
-  }
-
-  .md\:w-3 {
-    width: 0.75rem;
-  }
-
-  .md\:w-2 {
-    width: 0.5rem;
-  }
-
-  .md\:w-1 {
-    width: 0.25rem;
   }
 
   .md\:flex-row {
@@ -720,10 +772,25 @@ video {
     justify-content: flex-start;
   }
 
+  .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+
+  .md\:bg-transparent {
+    background-color: transparent;
+  }
+
+  .md\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
   }
 
   .md\:text-left {

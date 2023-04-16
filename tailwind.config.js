@@ -21,6 +21,9 @@ module.exports = {
         // Color Scheme 1 for Camping
         deepMossGreen: "#3B6B35",
         fernGreen: "#637F42",
+        middleLightFernGreen: "#829968",
+        lightFernGreen: "#D0D9C6",
+        darkFernGreen: "#324021",
         oliveDrab: "#4C4A41",
         bistreBrown: "#9F7B21",
         mistyMoss: "#BFAA72",
