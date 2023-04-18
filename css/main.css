@@ -683,6 +683,11 @@ video {
   border-bottom-left-radius: 9999px;
 }
 
+.bg-classicRose {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 203 238 / var(--tw-bg-opacity));
+}
+
 .bg-lightFernGreen {
   --tw-bg-opacity: 1;
   background-color: rgb(208 217 198 / var(--tw-bg-opacity));
@@ -703,6 +708,11 @@ video {
   background-color: rgb(255 242 233 / var(--tw-bg-opacity));
 }
 
+.bg-lightSoap {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 243 253 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -721,9 +731,24 @@ video {
   padding-right: 1.75rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .pt-0 {
@@ -768,6 +793,10 @@ video {
   font-weight: 700;
 }
 
+.leading-tight {
+  line-height: 1.25;
+}
+
 .text-bistreBrown {
   --tw-text-opacity: 1;
   color: rgb(159 123 33 / var(--tw-text-opacity));
@@ -793,14 +822,39 @@ video {
   color: rgb(202 181 240 / var(--tw-text-opacity));
 }
 
+.text-sandyBrown {
+  --tw-text-opacity: 1;
+  color: rgb(248 166 104 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:bg-brightRedSuperLight:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 230 230 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-sandyBrownLight:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(252 211 180 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-mediumPurple:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(202 181 240 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-antiqueBronze:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 91 22 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sandyBrown:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 166 104 / var(--tw-bg-opacity));
 }
 
 .hover\:text-antiqueBronze:hover {
@@ -833,6 +887,10 @@ video {
     width: 33.333333%;
   }
 
+  .md\:max-w-xl {
+    max-width: 36rem;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -862,12 +920,32 @@ video {
     padding-bottom: 0.25rem;
   }
 
+  .md\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }

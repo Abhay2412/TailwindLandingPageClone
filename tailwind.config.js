@@ -31,6 +31,8 @@ module.exports = {
         veryLightPumpkin: "#FFF2E9",
         mediumPurple: "#CAB5F0",
         buttonBlue: "#16AEEF",
+        classicRose: "#F8CBEE",
+        lightSoap: "#F4F3FD",
         // Color Scheme 2 for Camping
         sandyBrown: "#F8A668",
         sandyBrownLight: "#FCD3B4",
