@@ -33,6 +33,9 @@ module.exports = {
         buttonBlue: "#16AEEF",
         classicRose: "#F8CBEE",
         lightSoap: "#F4F3FD",
+        lightFulvous: "#F4C79A",
+        rust: "#AF350A",
+        brightRust: "#EFD7CE",
         // Color Scheme 2 for Camping
         sandyBrown: "#F8A668",
         sandyBrownLight: "#FCD3B4",
